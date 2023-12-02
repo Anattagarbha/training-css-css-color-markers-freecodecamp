@@ -1,11 +1,11 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .marker {
-    height: 25px;
-    width: 200px;
-    margin: 10px auto;
+  height: 25px;
+  width: 200px;
+  margin: 10px auto;
 }
 
 /* secondary colors */
@@ -52,18 +52,23 @@ h1 {
 } */
 
 .red {
-    background-color: rgb(255, 0, 0);
-} 
-
-.green {
-    background-color: #007F00;
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
 }
 
-.three {
-    background-color: rgb(0, 0, 255);
+.green {
+  background: linear-gradient(180deg, #55680d, #71f53e, #116c31);
+}
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
 }
 
 .container {
-    background-color: rgb(255, 255, 255);
-    padding: 10px 0;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
 }
